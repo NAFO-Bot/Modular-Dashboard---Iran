@@ -214,22 +214,3 @@ def render_network(df):
 
     st.markdown(
         """
-### Legend
-
-🔴 Supplier
-
-🟧 Platform
-
-🟢 Africa
-
-🔵 Europe
-
-🟣 Middle East
-
-🟠 Asia
-
-🟦 Americas
-
-⚪ Unknown
-"""
-    )
