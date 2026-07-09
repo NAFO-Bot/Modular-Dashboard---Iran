@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 from coords import country_coords
-from metrics import metrics
+from metrics import render_dashboard_metrics
+from metrics import render_sidebar
 
 
 RECIPIENT_TYPE = {
