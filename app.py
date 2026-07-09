@@ -1,5 +1,4 @@
 import streamlit as st
-
 from data import load_data
 from metrics import render_sidebar
 from globe import render_globe
