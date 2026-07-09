@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 from coords import country_coords
-from components.metrics import render_dashboard_metrics
+from metrics import metrics
 
 
 RECIPIENT_TYPE = {
