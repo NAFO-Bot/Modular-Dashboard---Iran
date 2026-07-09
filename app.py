@@ -1,6 +1,6 @@
 import streamlit as st
 
-from components.data import load_data
+from data import load_data
 from components.metrics import render_sidebar
 from components.globe import render_globe
 from components.network import render_network
